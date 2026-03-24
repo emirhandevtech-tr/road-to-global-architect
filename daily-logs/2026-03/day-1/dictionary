@@ -14,3 +14,35 @@
 | **Track** | Takip Etmek, İzlemek | Version Control | We can **track** every infrastructure change through Git history. |
 | **Scalability** | Ölçeklenebilirlik | Architecture | Automated provisioning is essential for the **scalability** of AI platforms. |
 | **Redundant** | Gereksiz, Fazlalık | Optimization | We should remove **redundant** resources to optimize cloud costs. |
+
+⚙️ Süreçleri Anlatırken Kullanabileceğin Profesyonel Kalıplar
+Özellikle Istanbul'daki mevcut rolünde veya hedeflediğin global MLOps rollerinde, bir sürecin neden ve nasıl değişmesi gerektiğini anlatırken şu kalıpları kullanman seni çok daha kıdemli ve profesyonel gösterecektir:
+
+1. Mevcut Sorunu (Pain Points) Belirtirken:
+"It becomes cumbersome and almost impossible to manage..." (Yönetmek zahmetli ve neredeyse imkansız hale geliyor...)
+
+"Doing this manually is prone to human error." (Bunu manuel yapmak insan hatasına meyillidir.)
+
+"There is a high chance that these environments are not consistent." (Bu ortamların tutarlı olmama ihtimali çok yüksek.)
+
+"Our teams are sitting idle due to infrastructure dependencies." (Ekiplerimiz altyapı bağımlılıkları nedeniyle boşta bekliyor.)
+
+2. Çözüm ve Fayda Önerirken:
+"By adopting IaC, we can save a significant amount of resources." (IaC'yi benimseyerek ciddi miktarda kaynak tasarrufu sağlayabiliriz.)
+
+"This approach follows the DRY (Don't Repeat Yourself) principle." (Bu yaklaşım DRY -Kendini Tekrar Etme- prensibini takip eder.)
+
+"It allows us to track changes through version control." (Değişiklikleri versiyon kontrol sistemi üzerinden takip etmemize olanak tanır.)
+
+"We can focus on what truly matters: building our application." (Gerçekten önemli olan şeye, yani uygulamamızı inşa etmeye odaklanabiliriz.)
+
+3. Akıştan ve Adımlardan Bahsederken:
+"Let's understand how this works on a high level." (Bunun üst seviyede/genel olarak nasıl çalıştığını anlayalım.)
+
+"Once we run the command, it interacts with the cloud APIs." (Komutu çalıştırdığımızda, bulut API'ları ile etkileşime geçer.)
+
+"The next step involves initializing the directory." (Bir sonraki adım, dizinin başlatılmasını içerir.)
+
+"In a nutshell, we write once and deploy many." (Özetle, bir kez yazar ve defalarca yayına alırız.)
+
+Tavsiye: Kariyer yol haritanda B1-B2 seviyesinde olduğunu belirttin. Bu teknik terimleri bir Anki destesine ekleyerek veya günlük OpenShift/Kubernetes çalışmaların sırasında (kendi kendine konuşarak) bu kalıpları kullanarak pekiştirebilirsin. Başarılar!
