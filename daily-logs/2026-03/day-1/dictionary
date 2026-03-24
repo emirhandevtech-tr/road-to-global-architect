@@ -15,34 +15,31 @@
 | **Scalability** | Ölçeklenebilirlik | Architecture | Automated provisioning is essential for the **scalability** of AI platforms. |
 | **Redundant** | Gereksiz, Fazlalık | Optimization | We should remove **redundant** resources to optimize cloud costs. |
 
-⚙️ Süreçleri Anlatırken Kullanabileceğin Profesyonel Kalıplar
-Özellikle Istanbul'daki mevcut rolünde veya hedeflediğin global MLOps rollerinde, bir sürecin neden ve nasıl değişmesi gerektiğini anlatırken şu kalıpları kullanman seni çok daha kıdemli ve profesyonel gösterecektir:
+🚀 Süreçleri Anlatırken Kullanabileceğin Profesyonel Kalıplar
+Bir IT toplantısında, bir sistemin veya iş akışının nasıl çalıştığını anlatırken şu yapıları kullanman seni çok daha profesyonel ve yetkin gösterecektir:
 
-1. Mevcut Sorunu (Pain Points) Belirtirken:
-"It becomes cumbersome and almost impossible to manage..." (Yönetmek zahmetli ve neredeyse imkansız hale geliyor...)
+1. Başlangıç ve Genel Bakış (Overview)
 
-"Doing this manually is prone to human error." (Bunu manuel yapmak insan hatasına meyillidir.)
+"To give you a high-level overview of how it works..." (Sistemin nasıl çalıştığına dair size üst seviye bir özet vermek gerekirse...)
 
-"There is a high chance that these environments are not consistent." (Bu ortamların tutarlı olmama ihtimali çok yüksek.)
+"The core objective of this process is to automate..." (bu sürecin temel amacı ...'yı otomatize etmektir.)
 
-"Our teams are sitting idle due to infrastructure dependencies." (Ekiplerimiz altyapı bağımlılıkları nedeniyle boşta bekliyor.)
+2. Adım Adım İlerleme (Step-by-Step)
 
-2. Çözüm ve Fayda Önerirken:
-"By adopting IaC, we can save a significant amount of resources." (IaC'yi benimseyerek ciddi miktarda kaynak tasarrufu sağlayabiliriz.)
+"First and foremost, we initialize the environment..." (Her şeyden önce, ortamı başlatıyoruz...)
 
-"This approach follows the DRY (Don't Repeat Yourself) principle." (Bu yaklaşım DRY -Kendini Tekrar Etme- prensibini takip eder.)
+"Once the validation is complete, the next step is to..." (Doğrulama tamamlandığında, bir sonraki adım şudur...)
 
-"It allows us to track changes through version control." (Değişiklikleri versiyon kontrol sistemi üzerinden takip etmemize olanak tanır.)
+"This triggers a series of actions, namely..." (Bu, şu eylemleri içeren bir dizi işlemi tetikler...)
 
-"We can focus on what truly matters: building our application." (Gerçekten önemli olan şeye, yani uygulamamızı inşa etmeye odaklanabiliriz.)
+3. Gerekçelendirme ve Çözüm (Rationale & Solution)
 
-3. Akıştan ve Adımlardan Bahsederken:
-"Let's understand how this works on a high level." (Bunun üst seviyede/genel olarak nasıl çalıştığını anlayalım.)
+"In order to mitigate the risk of downtime, we implement..." (Kesinti riskini azaltmak adına, ...'yı uyguluyoruz.)
 
-"Once we run the command, it interacts with the cloud APIs." (Komutu çalıştırdığımızda, bulut API'ları ile etkileşime geçer.)
+"This approach eliminates the need for manual intervention." (Bu yaklaşım, manuel müdahale ihtiyacını ortadan kaldırır.)
 
-"The next step involves initializing the directory." (Bir sonraki adım, dizinin başlatılmasını içerir.)
+4. Özetleme ve Kapanış (Recap)
 
-"In a nutshell, we write once and deploy many." (Özetle, bir kez yazar ve defalarca yayına alırız.)
+"In a nutshell, this workflow ensures scalability." (Özetle, bu iş akışı ölçeklenebilirliği garanti eder.)
 
-Tavsiye: Kariyer yol haritanda B1-B2 seviyesinde olduğunu belirttin. Bu teknik terimleri bir Anki destesine ekleyerek veya günlük OpenShift/Kubernetes çalışmaların sırasında (kendi kendine konuşarak) bu kalıpları kullanarak pekiştirebilirsin. Başarılar!
+"To wrap up, the final output is delivered to the production tier." (Toparlamak gerekirse, nihai çıktı üretim katmanına iletilir.)
