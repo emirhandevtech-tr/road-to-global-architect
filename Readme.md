@@ -17,78 +17,68 @@ I am rebuilding my entire engineering stack from the ground up to master Cloud, 
 
 ---
 
-## 🗺️ The 18-Month Grand Plan
+.
+├── 01-Infrastructure-as-Code (Months 1-3)
+│   ├── 01-Terraform-Fundamentals/
+│   ├── 02-Advanced-IaC-Patterns/
+│   └── 03-Multi-Cloud-AWS-GCP/
+├── 02-Container-Orchestration (Months 4-8)
+│   ├── 01-Kubernetes-The-Hard-Way/
+│   ├── 02-OpenShift-Enterprise-Admin/
+│   └── 03-Helm-Charts-and-Operators/
+├── 03-Platform-Engineering-CI-CD (Months 9-12)
+│   ├── 01-GitOps-ArgoCD-Flux/
+│   └── 02-Observability-Prometheus-Grafana/
+├── 04-MLOps-Specialization (Months 13-18)
+│   ├── 01-Python-for-Automation/
+│   ├── 02-Kubeflow-Pipelines/
+│   └── 03-Model-Serving-at-Scale/
+├── English-Fluency-Log/
+│   └── Speaking-and-Vocabulary.md
+└── ROADMAP.md (The Master Plan)
 
-My journey is divided into 6 rigorous phases.
+📂 Phase 1: Infrastructure as Code & Cloud (Months 1-3)
+Objective: Eliminate manual intervention. Shift from "installing software" to "coding infrastructure."
 
-### 🏗️ Phase 1: Foundation & Automation (Months 1-3)
-**Goal:** Kill manual operations. Master Linux Kernel & Python.
-- [ ] **Linux Deep Dive:** Kernel, Process Management, Signals, I/O (SadServers scenarios).
-- [ ] **Python for DevOps:** Replacing shell scripts with robust Python automation (`boto3`, `sys`, `re`).
-- [ ] **Networking:** TCP/IP, DNS, HTTP/S, SSL/TLS handshake analysis.
-- [ ] **Project 01:** Python-based Server Resource Monitor & Agent.
-- [ ] **English:** Daily Technical Vocabulary & Listening.
+Deep Dive Terraform: Mastering State Locking (S3/DynamoDB), Remote Backends, and Terragrunt for DRY (Don't Repeat Yourself) configurations.
 
-### ☁️ Phase 2: Cloud Supremacy (Months 4-6)
-**Goal:** Infrastructure as Code (IaC). No more clicking in the console.
-- [ ] **AWS Architecture:** VPC, IAM, EC2, S3, RDS mastery.
-- [ ] **Terraform:** Managing infrastructure statefully via code.
-- [ ] **Automation:** Event-driven architecture with AWS Lambda & Python.
-- [ ] **Certification:** AWS Certified Solutions Architect - Associate (SAA-C03).
+Cloud Architecture (AWS/GCP): Focus on VPC Peering, IAM Policies, and Service Accounts. Learn to build secure, multi-tier cloud environments.
 
-### ⚓ Phase 3: Container Orchestration (Months 7-9)
-**Goal:** Native Kubernetes mastery.
-- [ ] **Docker Internals:** Optimization, Multi-stage builds.
-- [ ] **Kubernetes Hard Way:** Cluster setup from scratch (kubeadm).
-- [ ] **Helm:** Chart development.
-- [ ] **Certification:** Certified Kubernetes Administrator (CKA).
+English Focus: Writing professional README.md files. Your documentation must be as clean as your code.
 
-### 🔄 Phase 4: Modern Ops & Observability (Months 10-12)
-**Goal:** Self-healing systems.
-- [ ] **CI/CD:** Advanced pipelines (GitHub Actions/GitLab CI).
-- [ ] **GitOps:** ArgoCD implementation.
-- [ ] **Observability:** Prometheus, Grafana, OpenTelemetry (Tracing > Logs).
-- [ ] **Project 02:** Microservices deployment with full GitOps flow.
+Certification: HashiCorp Certified: Terraform Associate.
 
-### 🧠 Phase 5: AI Infrastructure & MLOps (Months 13-15)
-**Goal:** Serving the future.
-- [ ] **GPU Management:** Nvidia MIG, GPU Scheduling on K8s.
-- [ ] **Model Serving:** Deploying LLMs with Triton/vLLM.
-- [ ] **Vector DBs:** Implementing Pinecone/Milvus RAG pipelines.
-- [ ] **Certification:** AWS Machine Learning Specialty OR CKS.
+🚢 Phase 2: Container Orchestration & OpenShift (Months 4-8)
+Objective: Master the "Operating System" of the modern data center.
 
-### 🌍 Phase 6: Global Launch (Months 16-18)
-**Goal:** Selling the skill set.
-- [ ] **System Design:** Designing scalable architectures (Twitter, Uber scale).
-- [ ] **Interview Prep:** Mock interviews (English).
-- [ ] **Portfolio:** Final polish of GitHub & LinkedIn.
-- [ ] **Apply:** Aggressive application to global remote roles.
+Kubernetes "The Hard Way": Before using EKS/ARO, build a cluster from scratch to understand Etcd, API Server, and Kubelet communication.
 
----
+OpenShift Enterprise: Mastering S2I (Source-to-Image), Routes, Image Streams, and custom Operators. This is your ticket to high-paying enterprise roles.
 
-## 🛠️ Tech Stack & Tools I am Mastering
+Security & Networking: Implementing Network Policies, RBAC, and Secret Management (HashiCorp Vault).
 
-| Domain | Tools & Technologies |
-| :--- | :--- |
-| **OS & Scripting** | Linux (RHEL/Ubuntu), Python, Bash |
-| **Cloud** | AWS (Core Services) |
-| **IaC** | Terraform, Ansible |
-| **Container** | Docker, Kubernetes, Helm |
-| **CI/CD & GitOps** | GitHub Actions, ArgoCD |
-| **Observability** | Prometheus, Grafana, OpenTelemetry |
-| **AI Infra** | Nvidia GPU Ops, Triton, Vector DBs |
+Certification: CKA (Certified Kubernetes Administrator) and Red Hat EX280 (OpenShift Admin).
 
----
+⚙️ Phase 3: Platform Engineering & GitOps (Months 9-12)
+Objective: Build "Self-Service" platforms that empower developers.
 
-## 📈 Daily Progress Log
-*Proof of work. Every single day.*
+GitOps: Implementing ArgoCD or Flux to ensure the Git repository is the single source of truth for the cluster state.
 
-Please check the `daily-logs/` folder for detailed reports.
+Observability: Moving beyond basic monitoring. Setting up the LGTM stack (Loki, Grafana, Tempo, Mimir) for full-stack tracing and metrics.
 
-- **Start Date:** [BAŞLANGIÇ TARİHİNİ YAZ - ÖRN: 05 Feb 2024]
-- **Current Streak:** 0 Days
-- **Total Commits:** 0
+CI/CD Evolution: Building container-native pipelines with GitHub Actions or Tekton, integrating security scanning (Trivy/Snyk).
 
----
+Certification: AWS Certified Solutions Architect – Associate.
 
-*"We do not rise to the level of our expectations. We fall to the level of our training."*
+🤖 Phase 4: MLOps & AI Infrastructure (Months 13-18)
+Objective: Industrializing Artificial Intelligence. Moving models from a notebook to production.
+
+Python for Automation: Transitioning from Bash to Python for developing custom tooling and ML APIs.
+
+Kubeflow & ML Pipelines: Orchestrating ML workflows on Kubernetes. Automating data ingestion, training, and validation.
+
+Model Serving & Scaling: Using Seldon Core or Triton Inference Server to serve models at scale with A/B testing and Canary deployments.
+
+GPU Management: Managing hardware acceleration (NVIDIA Device Plugins) within Kubernetes clusters.
+
+Certification: Google Cloud Professional Machine Learning Engineer.
