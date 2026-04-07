@@ -1,0 +1,46 @@
+# IT Technical Dictionary: Terraform & Infrastructure as Code
+
+| Word / Phrase | Turkish Meaning | Category | Example Sentence |
+| :--- | :--- | :--- | :--- |
+| **Provider** | Sağlayıcı | Terraform Core | The AWS provider is a plugin that Terraform uses to manage resources.
+| **Bridge** the gap | Aradaki boşluğu kapatmak | Business Idiom | The provider bridges the gap between HCL code and the Cloud API.
+| **Version** Constraint | Versiyon Kısıtlaması | DevOps Operations | We use version constraints to ensure compatibility across environments.
+| **Hardcode** | Koda gömmek / Sabitlemek | Programming | Never hardcode your AWS access keys in your configuration files.
+| **Mandatory** | Zorunlu / Mecburi | Documentation | The region argument is mandatory for the AWS provider block.
+| **Initialize** | Başlatmak / Hazırlamak | CLI Commands | Run 'terraform init' to initialize the working directory and plugins.
+| **Plugin** | Eklenti | Software Architecture | Terraform downloads the provider plugin automatically during initialization.
+| **Credentials** | Kimlik Bilgileri | Security / IAM | You need valid credentials to authenticate with the AWS platform.
+| **Backend** | Arka uç | Infrastructure | The backend is where Terraform stores the state file for tracking.
+| **Resource** Type | Kaynak Tipi | HCL Syntax | 'aws_vpc' is a specific resource type used to create a network.
+| **Internal** Reference | Dahili Referans | HCL Syntax | We use the resource name as an internal reference within our scripts.
+
+  🚀 Süreçleri Anlatırken Kullanabileceğin Profesyonel Kalıplar
+Bir toplantıda veya sunumda süreçleri (workflow) açıklarken şu kalıpları kullanarak bir IT profesyoneli gibi konuşabilirsin:
+
+1. Ön Koşulları ve Hazırlığı Belirtme
+"Before we dive into the implementation, it is vital to understand..."
+(Uygulamaya geçmeden önce, ...'yı anlamak hayati önem taşır.)
+
+"It's not highly recommended to proceed without locking the versions."
+(Versiyonları sabitlemeden devam etmek pek tavsiye edilmez.)
+
+2. Teknik İşleyişi ve "Translation" Mantığını Açıklama
+"This essentially translates our high-level code into API calls."
+(Bu işlem, temel olarak üst seviye kodumuzu API çağrılarına dönüştürür.)
+
+"It automatically detects the underlying operating system to fetch the right binary."
+(Doğru dosyayı getirmek için alt taraftaki işletim sistemini otomatik olarak algılar.)
+
+3. Karşılaştırma ve Analiz Süreçleri
+"What the 'plan' command does is, it performs a dry run of the changes."
+('Plan' komutunun yaptığı şey, değişikliklerin bir provasını gerçekleştirmektir.)
+
+"The system compares the current state with the desired configuration."
+(Sistem, mevcut durumu istenen konfigürasyonla karşılaştırır.)
+
+4. "Best Practice" ve Güvenlik Uyarıları
+"As a best practice, we should avoid storing secrets in plain text."
+(En iyi uygulama olarak, gizli bilgileri düz metin olarak saklamaktan kaçınmalıyız.)
+
+"We need to test this thoroughly in a non-prod environment first."
+(Bunu önce prod olmayan bir ortamda kapsamlı bir şekilde test etmemiz gerekiyor.)
