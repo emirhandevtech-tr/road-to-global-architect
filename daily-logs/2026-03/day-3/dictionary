@@ -1,0 +1,51 @@
+🛠 IT & Cloud Engineering Personal Dictionary
+Topic: Resource Provisioning & AWS S3 Bucket
+Video: 3/30 - Create an AWS S3 Bucket Using Terraform
+
+| Word / Phrase | Turkish Meaning | Category | Example Sentence |
+| :--- | :--- | :--- | :--- |
+| **Provisioning** | Kaynak sağlama / Kurulum | IT Operations | Terraform simplifies the provisioning of cloud resources across different providers.
+| **Glance** | Göz atmak / İncelemek | General Prof. | You should take a glance at the previous videos before starting this lesson.
+| **Fork the repo** | Depoyu çatallamak | Version Control | Make sure to fork the repository to your own GitHub account for the challenge.
+| **Climb the ladder** | Basamakları tırmanmak | Idiom (Career) | We will start with simple tasks and climb the ladder to complex architectures.
+| **Overwhelmed** | Bunalmış / Aşırı yüklenmiş | General Prof. | I don't want you to feel overwhelmed by too many technical details at once.
+| **Dry Run** | Prova / Ön izleme | Process Control | Running 'terraform plan' is a dry run to see what will happen before applying.
+| **Bypass the prompt** | Onay uyarısını atlamak | CLI / Automation | You can use the '-auto-approve' flag to bypass the manual confirmation prompt.
+| **Unique** | Benzersiz | Requirements | S3 bucket names must be globally unique across all AWS regions.
+| **Tagging** | Etiketleme | Resource Mgmt. | Proper tagging is essential for tracking costs and organizing cloud resources.
+| **Modification** | Değişiklik / Tadilat | IT Operations | Terraform detected a modification in the tags and updated the resource.
+| **State File** | Durum Dosyası | Terraform Core | The state file is used to compare your code with the actual cloud environment.
+| **Destroy** | Silmek / İmha etmek | IT Operations | "Once the project is finished |  run 'terraform destroy' to remove all resources."
+
+  🚀 Süreçleri Anlatırken Kullanabileceğin Profesyonel Kalıplar
+Bir projede yaptığın işleri (deployment, güncelleme veya silme) anlatırken şu yapıları kullanarak teknik yetkinliğini vurgulayabilirsin:
+
+1. Hazırlık ve Strateji Belirtme
+"Before diving into complex architectures, we'll build one step at a time." [02:11]
+(Karmaşık mimarilere dalmadan önce, adım adım ilerleyeceğiz.)
+
+"It is highly recommended to take a glance at the prerequisites first." [00:11]
+(Öncelikle ön koşullara bir göz atmanız şiddetle tavsiye edilir.)
+
+2. Kurulum ve Uygulama Süreci (Provisioning)
+"This command initiates a dry run, which shows what resources will be added." [07:27]
+(Bu komut, hangi kaynakların ekleneceğini gösteren bir ön izleme başlatır.)
+
+"To automate the process, we can bypass the prompt using the auto-approve flag." [08:13]
+(Süreci otomatize etmek için, onay bayrağını kullanarak uyarıyı atlayabiliriz.)
+
+3. Değişiklik ve Güncelleme Yönetimi (Change Management)
+"Terraform compares the configuration with the actual environment to detect changes." [10:01]
+(Terraform, değişiklikleri tespit etmek için konfigürasyonu gerçek ortamla karşılaştırır.)
+
+"The system identified a modification in the metadata and applied the updates." [10:16]
+(Sistem, metadatalarda bir değişiklik saptadı ve güncellemeleri uyguladı.)
+
+4. Kaynak Temizliği ve Kapanış (Cleanup)
+"Once the environment is no longer needed, we can destroy the resources to save costs." [10:55]
+(Ortama artık ihtiyaç kalmadığında, maliyet tasarrufu için kaynakları silebiliriz.)
+
+"The destruction is complete, and the resources have been removed from the account." [12:16]
+(Silme işlemi tamamlandı ve kaynaklar hesaptan kaldırıldı.)
+
+Not: Videoda geçen "Global Uniqueness" kavramı S3 bucket'lar için çok önemlidir. Bu terimi teknik mülakatlarda S3'ü anlatırken mutlaka kullanmalısın.
