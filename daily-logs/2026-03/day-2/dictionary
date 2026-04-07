@@ -1,4 +1,6 @@
-# IT Technical Dictionary: Terraform & Infrastructure as Code
+🛠 IT & DevOps Technical Dictionary
+Topic: Terraform Providers & AWS Configuration
+Video: 2/30 - Terraform AWS Provider Explained
 
 | Word / Phrase | Turkish Meaning | Category | Example Sentence |
 | :--- | :--- | :--- | :--- |
@@ -44,3 +46,5 @@ Bir toplantıda veya sunumda süreçleri (workflow) açıklarken şu kalıpları
 
 "We need to test this thoroughly in a non-prod environment first."
 (Bunu önce prod olmayan bir ortamda kapsamlı bir şekilde test etmemiz gerekiyor.)
+
+Not: Bu sözlükteki "Mandatory vs. Optional" ayrımı, sadece Terraform değil tüm IT dokümantasyonlarını okurken karşına çıkacak en önemli kelime çiftlerinden biridir.
