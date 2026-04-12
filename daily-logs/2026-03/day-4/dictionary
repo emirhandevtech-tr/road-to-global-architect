@@ -1,0 +1,51 @@
+🛠 IT & DevOps Technical Dictionary
+Konu: Terraform State Yönetimi ve Uzak Arka Uç (Remote Backend)
+Video: 4/30 - Terraform State file management with AWS S3
+
+| Word / Phrase | Turkish Meaning | Category | Example Sentence |
+| :--- | :--- | :--- | :--- |
+| **Desired State** | İstenen Durum | Terraform Core | Terraform compares your desired state with the actual infrastructure.
+| **Actual State** | Mevcut / Gerçek Durum | Infrastructure | The actual state represents the resources currently running in the cloud.
+| **Remote Backend** | Uzak Arka Uç | Architecture | We use an S3 bucket as a remote backend to store our state files securely.
+| **State Locking** | Durum Kilitleme | Collaboration | State locking prevents multiple users from modifying the same infrastructure.
+| **Corrupted** | Bozulmuş / Tahrif Olmuş | Data Integrity | "If you update the state file manually |  it might get corrupted and break the plan."
+| **Confidential** | Gizli / Mahrem | Security | The state file contains confidential data that should never be exposed.
+| **Intermediate** | Ara / Geçici | Process Flow | The state file acts as an intermediate layer between your code and the cloud API.
+| **Metadata** | Meta Veri | Data Management | The local state file only contains basic metadata when a remote backend is configured.
+| **Deprecated** | Kullanımdan Kaldırılmış | Software Lifecycle | The old locking mechanism has been deprecated in favor of native S3 locking.
+| **Release the lock** | Kilidi serbest bırakmak | Process Control | "Once the process completes |  Terraform will automatically release the lock."
+| **Isolated** | İzole edilmiş / Ayrılmış | Security | "Make sure your state files are isolated per environment |  such as dev and prod."
+| **Recover** | Kurtarmak / Geri döndürmek | Disaster Recovery | Regular backups allow us to recover the state file in case of accidental deletion.
+
+  🚀 Süreçleri Anlatırken Kullanabileceğin Profesyonel Kalıplar
+Bir sistemin işleyişini veya bir sorunu ekip arkadaşlarınıza veya yöneticilerinize anlatırken şu yapıları kullanarak teknik yetkinliğinizi vurgulayabilirsiniz:
+
+1. Karşılaştırma ve Senkronizasyon (Comparison & Sync)
+"Terraform matches your desired state with the actual environment."
+(Terraform, istediğiniz durumu gerçek ortamla eşleştirir.)
+
+"It compares the configuration to identify any missing resources."
+(Eksik kaynakları belirlemek için konfigürasyonu karşılaştırır.)
+
+2. Güvenlik ve Gizlilik (Security & Privacy)
+"This file should not be exposed or stored on your local machine."
+(Bu dosya ifşa edilmemeli veya yerel makinenizde saklanmamalıdır.)
+
+"We need to ensure the state file is encrypted for better security."
+(Daha iyi güvenlik için durum dosyasının şifrelendiğinden emin olmalıyız.)
+
+3. İşbirliği ve Kilitleme Mekanizması (State Locking)
+"State locking ensures that only one process can modify the infrastructure at a time."
+(Durum kilitleme, bir seferde sadece bir işlemin altyapıyı değiştirebilmesini sağlar.)
+
+"The system will automatically release the lock after the command completes."
+(Komut tamamlandıktan sonra sistem kilidi otomatik olarak serbest bırakacaktır.)
+
+4. Hata Yönetimi ve Kurtarma (Recovery)
+"In case the file is accidentally deleted, we can recover it from the backup."
+(Dosyanın kazara silinmesi durumunda, yedekten geri yükleyebiliriz.)
+
+"Do not update the file manually; otherwise, the infrastructure management might break."
+(Dosyayı manuel olarak güncellemeyin; aksi takdirde altyapı yönetimi bozulabilir.)
+
+Teknik Not: Profesyonel projelerde Remote Backend kullanmak bir seçenek değil, bir zorunluluktur (Best Practice). Bu sayede ekip çalışması güvenli hale gelir ve durum dosyası merkezi bir yerde saklanır.
