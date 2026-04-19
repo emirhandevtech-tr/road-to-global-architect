@@ -314,3 +314,5 @@ terraform destroy
 - **Precedence**: Command line > tfvars > environment vars > defaults
 
 This simple example shows exactly how the video explains variables - clear, focused, and easy to understand!
+
+<img width="1066" height="628" alt="image" src="https://github.com/user-attachments/assets/14573222-eebd-484e-a7af-dcc26c682324" />
